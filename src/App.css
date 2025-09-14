@@ -1,13 +1,13 @@
-/* ตั้งสีตัวอักษรเป็นดำทั้งเว็บ */
 body, html {
-  color: #000;   /* ตัวหนังสือสีดำ */
-  background-color: #ffffff;
   height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000;
+
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; 
+  align-items: center;     
 }
 
 .container {
@@ -19,8 +19,12 @@ body, html {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   overflow-y: auto;
   max-height: 95%;
-}
 
+  display: flex;           
+  flex-direction: column;   
+  align-items: center;     
+  text-align: center;      
+}
 
 h1, h2, h3, p, li, input, select, button {
   color: #000;
@@ -32,4 +36,6 @@ h1, h2, h3, p, li, input, select, button {
   border: 1px solid #ddd;
   border-radius: 8px;
   background-color: #fafafa;
+  width: 100%;
+  max-width: 600px; 
 }
