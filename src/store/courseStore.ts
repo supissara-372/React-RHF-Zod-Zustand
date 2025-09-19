@@ -6,7 +6,7 @@ interface Course {
   nameEN: string;
   credit: number;
   teacher: string;
-  grade: string;   // A, B+, B, C+, ...
+  grade: string;   
 }
 
 interface CourseState {
